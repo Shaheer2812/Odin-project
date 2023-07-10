@@ -1,35 +1,64 @@
 .first, .second, .third, .fourth{
     width: 100%;
-    height: 200px;
-    background-color: grey;
-    flex: 1 1 auto;
-	border: solid red;
+    height: 100%;
+    background-color: #808080;
+	
 }
 
-body{
+body {
+    margin: 0;
+}
+
+.header {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    background-color: #1f2937;
+    align-items: center;;
+}
+
+.left-header {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.right-header {
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 28px;
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    margin: 150px;
-    margin-top: 0;
-	margin-bottom: 50px;
-    padding: 0;
     gap: 24px;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-}
-
+/*all related to first div*/
 .first {
 	display: flex;
+    background-color: #1f2937;
+    padding: 58px 180px;
+    
+    font-size: 18px;
+    color: #e5e7eb;
+    align-items: center;
 }
 
+#awesome {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+p {
+    width: 50%;
+}
+
+.right-first {
+    flex: 1;
+
+}
 .box {
 	border: solid blue;
 	width: 60px;
