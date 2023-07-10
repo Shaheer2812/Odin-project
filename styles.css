@@ -1,3 +1,8 @@
+* {
+    font-family: Roboto;
+}
+
+
 body {
     margin: 0;
 }
@@ -114,4 +119,24 @@ button {
     width: 100%;
     height: 100%;
     border-radius: 12px;
+}
+
+/*now onto the third div*/
+.third {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 64px 200px;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.quoter {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
 }
