@@ -140,3 +140,38 @@ button {
     font-size: 24px;
     font-weight: bold;
 }
+
+/*onto the fourth div*/
+.fourth {
+    display: flex;
+    margin: 80px 150px;
+    background-color: #3882f6;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    padding: 20px 0;
+}
+
+.action {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sign {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.right-fourth button {
+    border: solid white;
+    padding: 8px;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 24px 0;
+    font-weight: 900;
+}
